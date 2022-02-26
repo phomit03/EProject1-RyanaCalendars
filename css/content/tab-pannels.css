@@ -1,0 +1,107 @@
+/*Tab Panel*/
+  #tab-panels{
+    text-align: center;
+  }
+  #tabpanels-fix{
+    display: inline-block;
+    margin-top: 30px;
+  }
+
+  .container{
+    max-width: 1200px !important;
+    margin-top: 20px;
+    padding-left: 0px;
+    color: #333333;
+  }
+
+  .title-panels{
+    /* font-family: "Guardian-EgypTT"; */
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin: 15px auto !important;
+  }
+  /* .title-panels a:hover {
+    display: inline-block;
+    border-color: transparent;
+    color: #db941d;
+  } */
+  .title-panels a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #db941d;
+  }
+  .title-panels i {
+    text-decoration: none;
+    padding-left: 8px;
+  }
+
+
+  .nav-tabs a{
+    max-width: 1200px;
+  }
+  .nav-link {
+    padding: 16px 20px 11px 20px;
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+    background-color: #fff;
+    border-bottom: 5px solid transparent;
+    border-radius: 12px 12px 0px 0px !important;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    font-family: "Muli", sans-serif;
+  }
+  .nav-link:hover {
+    opacity: 1.5;
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #ffffff;
+  }
+  .nav-tabs .nav-link{
+    border-bottom: 1px solid #dee2e6;
+  }
+  .nav-tabs .nav-link.active {
+    opacity: 1;
+    color: #333333;
+  }
+  .nav-tabs .nav-item{
+    margin-bottom: 0px;
+  }
+
+  .tab-content{
+    padding: 0px !important;
+    /* margin-top: 10px !important; */
+    float: left !important;
+    margin-left: -13px !important;
+  }
+  .tab-pane{
+    margin-top: 0px !important;
+    padding-left: 10px;
+  }
+  .image02 {
+    vertical-align: middle;
+    border-style: none;
+    width: 280.75px;
+    height: 283.33px;
+    border-radius: 12px;
+    margin: auto;
+  }
+  .btn-link a {
+    margin: auto;
+    display: block !important;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    color: #333333;
+    text-decoration: underline;
+  }
+  .btn-link a:hover{
+    color: #db941d;
+  }
+  .txt {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: 500;
+  }

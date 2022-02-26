@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Shopping cart</title>
+      <!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'>
+		<!-- css -->
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./footer.css">
+
+	<!--js load-->
+	<script
+	src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+	integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+	crossorigin="anonymous"
+	></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"
+	></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+		integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+		crossorigin="anonymous"
+	></script>
+
+  	<link rel="shortcut icon" type="image/png" href="../../Logo/favicon1.png"/>
+
+</head>
+
+<body>
+		<!-- Page Preloder -->
+		<div id="preloader">
+			<div class="loader"></div>
+		</div>
+
+		<div id="container-total">
+			<div id="nav" class="clear-fix">
+				<!--Header-->
+				<div class="navbar navbar-expand-md navbar-light bg-light">
+					<div class="container-fluid">
+						<a class="navbar-branch" href="./index.html">
+						<img src="../../Logo/Logo-hd.png" height="70px">
+						</a>
+
+						<div class="nav-bar" id="nav-fix">
+						<ul>
+							<li><a href="../../index.html">Home</a></li>
+							<li><a href="../NEWS/news.html">News</a></li>
+							<li class="active"><a href="../product/product.html">Products</a>
+								<table class="dropdown">
+								<tr class="dropdown-title">
+									<th><a href="#">Calendars</a></th>
+									<th><a href="#">Diaries</a></th>
+								</tr>
+								<tr>
+									<td><a href="../product/top-calendar/top-calendar.html">Top Calendars</a></td>
+									<td><a href="../product/diaries/diary.html">Diaries 2022</a></td>
+								</tr>
+								<tr>
+									<td><a href="../product/wall-calendar/wall-calendar.html">Wall Calendars</a></td>
+									<td><a href="../product/Undated-Planner/undated-planner.html">Undated Planner</a></td>
+								</tr>
+								<tr>
+									<td><a href="../product/desk-calendar/desk-calendar.html">Desk Calendars</a></td>
+									<td><a href="../product/Hourly-Planner/hourly-planner.html">Hourly Planner</a></td>
+								</tr>
+								<tr>
+									<td><a href="../product/sticker-calendar/sticker-calendar.html">Sticker Calendars</a></td>
+									<td><a href="../product/small-daily-planner/small-daily.html">Small Daily Planner</a></td>
+								</tr>
+								<tr>
+									<td><a href="../product/book-calendar/book-calendar.html">Book Calendars</a></td>
+								</tr>
+								</table>
+							</li>
+							<li><a href="../about/about.html">About</a>
+								<ul class="dropdown">
+								<li><a href="../about/about.html">Company</a></li>
+								<li><a href="../about/about.html">Our Teams</a></li>
+								</ul>
+							</li>
+							<li><a href = "../contact/contact.html">Contact</a></li>
+						</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="content-cart">
+			<div id="site-header">
+				<div class="container">
+					<div class="back-cart"><a href="../product/product.html">Back to the store <i class="fa fa-angle-double-left" style="font-size:18px"></i></a></div>
+					<span class="cart-sub">Shopping cart</span> 
+					<i class="fa fa-shopping-cart"></i>
+				</div>
+			</div>
+	
+			<div class="container">
+				<section id="cart"> 
+					<article class="product">
+						<header>
+							<a class="remove">
+								<img src="img/calendars/Desk-Calendar/desk-06.jpg" alt="">
+	
+								<h3>Remove product</h3>
+							</a>
+						</header>
+	
+						<div class="content">
+	
+							<h1>Green Planner</h1>
+	
+							Our daily planner covers are made using PU leather (a vegan-friendly alternative to leather). Our daily planners are softback and lay completely flat when opened.
+	
+						</div>
+	
+						<footer class="content">
+							<span class="qt-minus">-</span>
+							<span class="qt">2</span>
+							<span class="qt-plus">+</span>
+	
+							<h2 class="full-price">
+								70.2$
+							</h2>
+	
+							<h2 class="price">
+								35.10$
+							</h2>
+						</footer>
+					</article>
+	
+					<article class="product">
+						<header>
+							<a class="remove">
+								<img src="img/calendars/Wall-calendar/wall-01.webp" alt="">
+	
+								<h3>Remove product</h3>
+							</a>
+						</header>
+	
+						<div class="content">
+	
+							<h1>Paris Wall Calendar</h1>
+	
+							From Paris’ romantic views over Montmartre to New York’s iconic rooftops, watching the canals of Venice on a summer day or letting the world go by from the cosiest Amsterdam’s view,
+							this is the journey we decided to take you on without even leaving your house!
+						</div>
+	
+						<footer class="content">
+							
+							<span class="qt-minus">-</span>
+							<span class="qt">1</span>
+							<span class="qt-plus">+</span>
+	
+							<h2 class="full-price">
+								30.00$
+							</h2>
+	
+							<h2 class="price">
+								30.00$
+							</h2>
+						</footer>
+					</article>
+	
+					<article class="product">
+						<header>
+							<a class="remove">
+								<img src="img/calendars/Sticker-calendar/sticker-03.jpg" alt="">
+	
+								<h3>Remove product</h3>
+							</a>
+						</header>
+	
+						<div class="content">
+	
+							<h1>Kraft Sticker</h1>
+	
+							Get creative with these calendar stickers in your Bullet Journal, Planner and notebooks!
+	
+						</div>
+	
+						<footer class="content">
+							
+							<span class="qt-minus">-</span>
+							<span class="qt">3</span>
+							<span class="qt-plus">+</span>
+	
+							<h2 class="full-price">
+								106.5$
+							</h2>
+	
+							<h2 class="price">
+								35.5$
+							</h2>
+						</footer>
+					</article>
+				</section>
+	
+			</div>
+	
+			<div id="site-footer">
+				<div class="container clearfix">
+	
+					<div class="left">
+						<h2 class="subtotal">Subtotal: <span>206.7</span>$</h2>
+						<h3 class="tax">Taxes (5%): <span>10.335</span>$</h3>
+						<h3 class="shipping">Shipping: <span>5.00</span>$</h3>
+					</div>
+	
+					<div class="right">
+						<h1 class="total">Total: <span>222.035</span>$</h1>
+						<a class="btn" href="../form-order/form-order.html">Checkout</a>
+					</div>
+	
+				</div>
+			</div>
+
+		</div>
+		
+
+		<!-- js -->
+	<script>
+		$(window).on('load', function () {
+			$(".loader").fadeOut();
+			$("#preloader").delay(200).fadeOut("slow");
+		});
+  	</script>
+
+	<!-- Js Plugins -->
+	<script src="./jquery-3.3.1.min.js"></script>
+
+	<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+</html>

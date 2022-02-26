@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="codelean Template">
+    <meta name="keywords" content="codelean, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Confirm Order</title>
+    <link rel="shortcut icon" type="image/png" href="Logo/favicon1.png"/>
+    <!--Css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/order.css">
+    <!--JS-->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap">
+</head>
+
+<body>
+  <!-- Page Preloder -->
+  <div id="preloader">
+    <div class="loader"></div>
+</div>
+  <!--Header-->
+  <header class="navbar navbar-expand-md navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-branch" href="#">
+        <img src="logo/Logo-hd.png" height="70px">
+      </a>
+
+      <div class="nav-bar" id="nav-fix">
+        <ul>
+          <li><a href="../../index.html">Home</a></li>
+          <li><a href="../NEWS/news.html">News</a></li>
+          <li class="active"><a href="../product/product.html">Products</a>
+            <table class="dropdown">
+              <tr class="dropdown-title">
+                <th><a href="#">Calendars</a></th>
+                <th><a href="#">Diaries</a></th>
+              </tr>
+              <tr>
+                <td><a href="../product/top-calendar/top-calendar.html">Top Calendars</a></td>
+                <td><a href="../product/diaries/diary.html">Diaries 2022</a></td>
+              </tr>
+              <tr>
+                <td><a href="../product/wall-calendar/wall-calendar.html">Wall Calendars</a></td>
+                <td><a href="../product/Undated-Planner/undated-planner.html">Undated Planner</a></td>
+              </tr>
+              <tr>
+                <td><a href="../product/desk-calendar/desk-calendar.html">Desk Calendars</a></td>
+                <td><a href="../product/Hourly-Planner/hourly-planner.html">Hourly Planner</a></td>
+              </tr>
+              <tr>
+                <td><a href="../product/sticker-calendar/sticker-calendar.html">Sticker Calendars</a></td>
+                <td><a href="../product/small-daily-planner/small-daily.html">Small Daily Planner</a></td>
+              </tr>
+              <tr>
+                <td><a href="../product/book-calendar/book-calendar.html">Book Calendars</a></td>
+              </tr>
+            </table></li>
+            <li><a href="../about/about.html">About</a>
+              <ul class="dropdown">
+                <li><a href="../about/about.html">Company</a></li>
+                <li><a href="../about/about.html">Our Teams</a></li>
+              </ul>
+            </li>
+          <li><a href = "../contact/contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+      <!--Back to top -->
+  <button id="myBtn" title="Back to top"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
+  <script>
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+    if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+    document.getElementById("myBtn").style.display = "block";
+    } else {
+    document.getElementById("myBtn").style.display = "none";
+    }
+    }
+  document.getElementById('myBtn').addEventListener("click", function(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  });
+  </script>
+    <div class="container mt-5 mb-5">
+        <div class="d-flex justify-content-center row">
+            <a class="back-confirm" href="../product/product.html"><i class="fa fa-angle-double-right" style="font-size:17px"></i> Continue shopping</a>
+            <div class="col-md-10">
+                <div class="receipt bg-white p-3 rounded">
+                    <h4 class="mt-2 mb-3">Your order has been confirmed!</h4>
+                    <h6 class="name">
+                      Hello XuanThao,
+                    </h6>
+                    <span class="fs-12 text-black-50">Your order has been confirmed, will be approved and shipped within 3-5 days.</span>
+                    <br>
+                    <div class="inforuser">
+                      <span>Receiver's Information: </span>
+                      <p>
+                        <b>Name: Nguyen Xuan Thao</b><br>
+                        Phone: +84 888666888<br>
+                        Email: ryanacalendars-team@gmail.com<br>
+                        Country/Region: Viet Nam, City: Ha Noi<br>
+                        Specific Address: FPT Aptech - 8A Ton That Thuyet, My Dinh, Ha Noi, Viet Nam.
+                      </p>
+                    </div>
+                    
+                    <hr>
+                    <div class="d-flex flex-row justify-content-between align-items-center order-details">
+                        <div><span class="d-block fs-12">Order date</span><span class="font-weight-bold">24 February 2022</span></div>
+                        <div><span class="d-block fs-12">Order number</span><span class="font-weight-bold">#C8686T</span></div>
+                        <div><span class="d-block fs-12">Payment method</span><span class="font-weight-bold">Credit card</span><img class="ml-1 mb-1" src="img/calendars/card.png" width="20"></div>
+                        <div><span class="d-block fs-12">Shipping Address</span><span class="font-weight-bold text-success">8A Ton That Thuyet, My Dinh, Ha Noi, Viet Nam.</span></div>
+                    </div>
+                    <hr>
+                    <div class="d-flex justify-content-between align-items-center product-details">
+                        <div class="d-flex flex-row product-name-image"><img class="rounded" src="img/Diary/small-daily/small-04.jpg" width="80">
+                            <div class="d-flex flex-column justify-content-between ml-2">
+                                <div><span class="d-block font-weight-bold p-name">Green Planner</span><span class="fs-12">Price: 35.10$</span></div><span class="fs-12">Quantity: 2</span>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h5>70.2$</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center product-details">
+                        <div class="d-flex flex-row product-name-image"><img class="rounded" src="img/calendars/Wall-calendar/wall-01.webp" width="80">
+                            <div class="d-flex flex-column justify-content-between ml-2">
+                                <div><span class="d-block font-weight-bold p-name">Paris Wall Calendar</span><span class="fs-12">Price: 30.00$</span></div><span class="fs-12">Quantity: 1</span>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h5>30.0$</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center product-details">
+                        <div class="d-flex flex-row product-name-image"><img class="rounded" src="img/calendars/Sticker-calendar/sticker-03.jpg" width="80">
+                            <div class="d-flex flex-column justify-content-between ml-2">
+                                <div><span class="d-block font-weight-bold p-name">Kraft Sticker</span><span class="fs-12">Price: 35.5$</span></div><span class="fs-12">Quantity: 3</span>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h5>106.5$</h5>
+                        </div>
+                    </div>
+                    <div class="mt-5 amount row">
+                        <div class="d-flex justify-content-center col-md-6"><img src="img/calendars/code.gif" width="250" height="100"></div>
+                        <div class="col-md-6">
+                            <div class="billing">
+                                <div class="d-flex justify-content-between"><span>Subtotal</span><span class="font-weight-bold">206.7$</span></div>
+                                <div class="d-flex justify-content-between mt-2"><span>Shipping fee</span><span class="font-weight-bold">5.00$</span></div>
+                                <div class="d-flex justify-content-between mt-2"><span>Taxes (5%)</span><span class="font-weight-bold">10.335$</span></div>
+                                <div class="d-flex justify-content-between mt-2"><span class="text-success">Discount</span><span class="font-weight-bold text-success">0$</span></div>
+                                <hr>
+                                <div class="d-flex justify-content-between mt-1"><span class="font-weight-bold total">Total</span><span class="font-weight-bold text-success total-price">222.035$</span></div>
+                            </div>
+                        </div>
+                    </div><span class="d-block">Expected delivery date</span><span class="font-weight-bold text-success">29 February 2022</span>
+                    <span class="d-block mt-3 text-black-50 fs-15">We will be sending a shipping confirmation email when the item is shipped!</span>
+                    <hr>
+                    <div class="d-flex justify-content-between align-items-center footer">
+                        <div class="thanks"><span class="d-block font-weight-bold">Thanks for shopping</span><span class="sign">Team Calendars</span></div>
+                        <div class="d-flex flex-column justify-content-end align-items-end">
+                          <span class="d-block font-weight-bold"><a href="../contact/contact.html">Need Help?</a></span>
+                          <span>Call: +84 888 666 888</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER--> 
+  <div id="footer">
+    <div class="container-fluid2 justify-content-center">
+      <!-- <div class="row py-5">
+          <div class="col">
+              <div class="card border-0">
+                  <div class="card-body text-center">
+                      <h2><b>Let's have a chat !</b></h2>
+                      <p class="pl-0 ml-0 mb-5">Get latest updates and offers.</p>
+                      <div class="row text-center justify-content-center">
+                          <div class="col-auto">
+                              <div class="input-group-lg input-group mb-3 "><input type="text" class="form-control" placeholder="Enter your e-mail address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                                  <div class="input-group-append"><button class="btn btn-success" type="button" id="button-addon2"> <b>Submit</b></button></div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div> -->
+      <hr class="mx-0 px-0">
+      <footer>
+        <div class="row justify-content-around mb-0 pt-5 pb-0">
+            <div class=" col-11">
+                <div class="row justify-content-center fix-footer">
+                    <div class="col-md-3 col-12 font-italic align-items-center mt-md-3 mt-4">
+                      <h5>
+                      <span><img src="Logo/Logo-hd.png" class="img-fluid mb-1"></span>
+                      <br>
+                      <!-- <b class="text-dark"> Key<span class="text-muted"> Pass</span></b> -->
+                      </h5>
+                      <p class="social mt-md-3 mt-2"> 
+                      <span><a href="https://www.facebook.com/">
+                          <i class="fa fa-facebook " aria-hidden="true"></i>
+                      </a></span> 
+                      <span><a href="https://www.linkedin.com/">
+                          <i class="fa fa-linkedin " aria-hidden="true"></i>
+                      </a></span> 
+                      <span><a href="https://www.twitter.com/">
+                          <i class="fa fa-twitter " aria-hidden="true"></i>
+                      </a></span> 
+                      </p> 
+                      <small class="copy-rights cursor-pointer">&#9400; 2021 CalendarsTeam <br>T2108M - FPT Aptech</small><br> 
+                      <small>Copyright.All Rights Resered. </small>
+                    </div>
+                    <div class="col-md-3 col-12 my-sm-0 mt-5">
+                        <ul class="list-unstyled list-footer">
+                            <li class="mt-md-3 mt-4">INFORMATION</li>
+                            <li><a href="../about/about.html">About Us</a></li>
+                            <li><a href="../contact/contact.html">Contact Us</a></li>
+                            <li><a href="../about/about.html">Company</a></li>
+                            <li><a href="../about/about.html">Our Teams</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-12 my-sm-0 mt-5">
+                        <ul class="list-unstyled list-footer">
+                            <li class="mt-md-3 mt-4">PRODUCTS</li>
+                            <li><a href="../product/top-calendar/top-calendar.html">Calendars</a></li>
+                            <li><a href="../product/diaries/diary.html">Diaries</a></li>
+                            <li><a href="../product/sale.html">Sales</a></li>
+                            <li><a href="../product/Best-selling.html">Best-selling</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-auto col-md-3 col-12 my-sm-0 mt-5">
+                        <ul class="list-unstyled list-footer">
+                            <li class="mt-md-3 mt-4">CUSTOMER SERVICE</li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Trust and safety</a></li>
+                            <li><a href="#">Privacy settings</a></li>
+                            <li><a href="#">Cookie Preferences</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  <!-- js -->
+ <script>
+  $(window).on('load', function () {
+      $(".loader").fadeOut();
+      $("#preloader").delay(200).fadeOut("slow");
+  });
+</script>
+
+<!-- Js Plugins -->
+<script src="js/jquery-3.3.1.min.js"></script>
+</body>
+</html>

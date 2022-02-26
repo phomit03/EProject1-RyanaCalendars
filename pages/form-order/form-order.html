@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Form Oder</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="../../Logo/favicon1.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/noui/nouislider.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/header/header.css">
+<!--===============================================================================================-->
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli&display=swap">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800'>
+</head>
+<body>
+	<!-- <script language="javascript">
+		window.alert("Here is the order form. Please complete the following information, we will contact you in a few hours. Thank you!");
+		
+		function myFunction(){
+			alert("Thank you for your order, we will contact you as soon as possible. Thank you! We invite you to continue to visit our booth...");
+		}
+
+	</script> -->
+	<!-- Page Preloder -->
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+	<div id="container-total">
+		<div id="nav" class="clear-fix">
+			<!--Header-->
+			<div class="navbar navbar-expand-md navbar-light bg-light">
+				<div class="container-fluid">
+					<a class="navbar-branch" href="./index.html">
+					<img src="../../Logo/Logo-hd.png" height="70px">
+					</a>
+
+					<div class="nav-bar" id="nav-fix">
+					<ul>
+						<li><a href="../../index.html">Home</a></li>
+						<li><a href="../NEWS/news.html">News</a></li>
+						<li class="active"><a href="../product/product.html">Products</a>
+                            <table class="dropdown">
+                            <tr class="dropdown-title">
+                                <th><a href="#">Calendars</a></th>
+                                <th><a href="#">Diaries</a></th>
+                            </tr>
+                            <tr>
+                                <td><a href="../product/top-calendar/top-calendar.html">Top Calendars</a></td>
+                                <td><a href="../product/diaries/diary.html">Diaries 2022</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../product/wall-calendar/wall-calendar.html">Wall Calendars</a></td>
+                                <td><a href="../product/Undated-Planner/undated-planner.html">Undated Planner</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../product/desk-calendar/desk-calendar.html">Desk Calendars</a></td>
+                                <td><a href="../product/Hourly-Planner/hourly-planner.html">Hourly Planner</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../product/sticker-calendar/sticker-calendar.html">Sticker Calendars</a></td>
+                                <td><a href="../product/small-daily-planner/small-daily.html">Small Daily Planner</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../product/book-calendar/book-calendar.html">Book Calendars</a></td>
+                            </tr>
+                            </table>
+                        </li>
+						<li><a href="../about/about.html">About</a>
+							<ul class="dropdown">
+							<li><a href="../about/about.html">Company</a></li>
+							<li><a href="../about/about.html">Our Teams</a></li>
+							</ul>
+						</li>
+						<li><a href = "../contact/contact.html">Contact</a></li>
+					</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form" id="form1" action="../Confirm-order/comfirm-order.html">
+				<span class="contact100-form-title">
+					Set up order information
+				</span>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Name">
+					<span class="label-input100">FULL NAME *</span>
+					<input class="input100" type="text" name="name" placeholder="Enter Your Name">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Please Type Your Email (e@a.x)">
+					<span class="label-input100">Email *</span>
+					<input class="input100" type="text" name="email" placeholder="Enter Your Email ">
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100 validate-input" data-validate = "Format (+84 3|5|7|8|9xxxxxxxx)">
+					<span class="label-input100">Phone *</span>
+					<input class="input100" type="text" name="phone" placeholder="Enter Number Phone">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1 rs1-wrap-input100" data-validate = "Please Type Your Country / Region">
+					<span class="label-input100">Country / Region *</span>
+					<input class="input100" type="text" name="country" placeholder="Enter Your Country / Region">
+				</div>
+
+				<div class="wrap-input100 bg1 rs1-wrap-input100 validate-input" data-validate = "Please Type Your City">
+					<span class="label-input100">City *</span>
+					<input class="input100" type="text" name="city" placeholder="Enter Your City">
+				</div>
+
+				<div class="wrap-input100 validate-input bg1" data-validate="Please Type Your Specific Address">
+					<span class="label-input100">Specific Address *</span>
+					<input class="input100" type="text" name="address" placeholder="Enter Your Address">
+				</div>
+
+
+				<div class="wrap-input100 input100-select bg1 validate-input">
+					<span class="label-input100">Payments Services *</span>
+						<select class="js-select2 input100" name="service" form="form1">
+							<option>Please choose a form of payment</option>
+							<option>Payments</option>
+						</select>
+						<div class="dropDownSelect2"></div>
+				</div>
+
+				<div class="w-full dis-none js-show-service"> 
+					<div class="wrap-contact100-form-radio">
+						<span class="label-input100">Please choose most of purchase</span>
+
+						<div class="contact100-form-radio m-t-15">
+							<input class="input-radio100" id="radio1" type="radio" name="type-product" value="physical" checked="checked">
+							<label class="label-radio100" for="radio1">
+								Payment in cash
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio2" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio2">
+								Pay with an international credit or debit card
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio3" type="radio" name="type-product" value="service">
+							<label class="label-radio100" for="radio3">
+								Pay by domestic debit card
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio4" type="radio" name="type-product" value="service">
+							<label class="label-radio100" for="radio4">
+								Pay by e-wallet
+							</label>
+						</div>
+
+						<div class="contact100-form-radio">
+							<input class="input-radio100" id="radio5" type="radio" name="type-product" value="service">
+							<label class="label-radio100" for="radio5">
+								Payment via bank transfer
+							</label>
+						</div>
+
+						<div class="contact100-form-radio fix-bottom">
+							<input class="input-radio100" id="radio6" type="radio" name="type-product" value="digital">
+							<label class="label-radio100" for="radio6">
+								Pay by check online
+							</label>
+						</div>
+
+					</div>
+
+				</div>
+
+
+				<!-- <div class="wrap-contact100-form-range">
+					<span class="label-input100">Fluctuating Price *</span>
+
+					<div class="contact100-form-range-value">
+						$<span id="value-lower">0</span> - $<span id="value-upper">1000</span>
+						<input type="text" name="from-value">
+						<input type="text" name="to-value">
+					</div>
+
+					<div class="contact100-form-range-bar">
+						<div id="filter-bar"></div>
+					</div>
+				</div> -->
+
+				<div class="wrap-input100 validate-input bg0 rs1-alert-validate" data-validate = "Please Type Your Message">
+					<span class="label-input100">Note</span>
+					<textarea class="input100" name="message" placeholder="Your message here..."></textarea>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<button class="contact100-form-btn" disabled="disabled">Submit Order</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+		
+<!--===============================================================================================-->
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+	<script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+
+
+			$(".js-select2").each(function(){
+				$(this).on('select2:close', function (e){
+					if($(this).val() == "Please chooses") {
+						$('.js-show-service').slideUp();
+					}
+					else {
+						$('.js-show-service').slideUp();
+						$('.js-show-service').slideDown();
+					}
+				});
+			});
+		})
+	</script>
+	
+	<!-- <script>
+		$(".js-select2").each(function(){
+			$(this).select2({
+				minimumResultsForSearch: 20,
+				dropdownParent: $(this).next('.dropDownSelect2')
+			});
+
+
+			$(".js-select2").each(function(){
+				$(this).on('select2:close', function (e){
+					if($(this).val() == "Please chooses") {
+						$('.js-show-service2').hide();
+						$('.js-show-service').slideUp();
+					}
+					if($(this).val() == "Calendars"){
+						// $('.js-show-service').removeAttr('checked');
+						$('.js-show-service2').hide();
+						$('.js-show-service').slideUp();
+						$('.js-show-service').slideDown();						
+						// $('.js-show-service2').setAttribute("checked", true);
+					}
+					else{
+						$('.js-show-service').hide();
+						$('.js-show-service2').slideUp();
+						$('.js-show-service2').slideDown();						
+					}
+					
+				});
+			});
+		})
+
+	</script> -->
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/countdowntime/countdowntime.js"></script>
+<!--====================================================================()===========================-->
+	<script src="vendor/noui/nouislider.min.js"></script>
+	<script>
+	    var filterBar = document.getElementById('filter-bar');
+
+	    noUiSlider.create(filterBar, {
+	        start: [ 0, 250 ],
+	        connect: true,
+	        range: {
+	            'min': 0,
+	            'max': 1000
+	        }
+	    });
+
+	    var skipValues = [
+	    document.getElementById('value-lower'),
+	    document.getElementById('value-upper')
+	    ];
+
+	    filterBar.noUiSlider.on('update', function( values, handle ) {
+	        skipValues[handle].innerHTML = Math.round(values[handle]);
+	        $('.contact100-form-range-value input[name="from-value"]').val($('#value-lower').html());
+	        $('.contact100-form-range-value input[name="to-value"]').val($('#value-upper').html());
+	    });
+	</script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<!-- js -->
+<script>
+    $(window).on('load', function () {
+        $(".loader").fadeOut();
+        $("#preloader").delay(200).fadeOut("slow");
+    });
+  </script>
+
+  <!-- Js Plugins -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+
+</body>
+</html>

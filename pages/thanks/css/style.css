@@ -1,0 +1,159 @@
+body {
+    font-size: 100%;
+    font-family: "Muli", sans-serif !important;
+    letter-spacing: 0.1em;
+    background-color: #ffffff;
+    margin-right: 33px;
+  }
+  
+  #header {
+    max-width: 1800px !important;
+    min-width: 1000px;
+    border: none;
+    /* background-color: #f3f3f3; */
+  }
+  
+
+/* Preloder */
+
+#preloader {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: #fcf7ed;
+}
+
+.loader {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -13px;
+	margin-left: -13px;
+	border-radius: 60px;
+	animation: loader 0.8s linear infinite;
+	-webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		transform: rotate(0deg);
+		border: 4px solid #db941d;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		transform: rotate(180deg);
+		border: 4px solid #304ed4;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);
+		border: 4px solid #d8372c;
+		border-left-color: transparent;
+	}
+}
+
+@-webkit-keyframes loader {
+	0% {
+		-webkit-transform: rotate(0deg);
+		border: 4px solid #db941d;
+		border-left-color: transparent;
+	}
+	50% {
+		-webkit-transform: rotate(180deg);
+		border: 4px solid #304ed4;
+		border-left-color: transparent;
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+		border: 4px solid #d8372c;
+		border-left-color: transparent;
+	}
+}
+  
+
+/* content */
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
+html,body {
+    font-family: "Muli", sans-serif !important;
+}
+
+.thankyou-page{
+    margin-top: 45px;
+}
+
+.thankyou-page ._header {
+    background: #db941d;
+    padding: 100px 30px;
+    text-align: center;
+    background: #db941d url(https://codexcourier.com/images/main_page.jpg) center/cover no-repeat;
+    vertical-align: middle;
+    margin-top: -22.5px;
+    margin-left: 166px;
+    width: 1185px;
+    border-radius: 12px;
+}
+.thankyou-page ._header .logo {
+    max-width: 200px;
+    margin: 0 auto 50px;
+}
+
+.thankyou-page ._header .logo img {
+    width: 100%;
+}
+.thankyou-page ._header h1 {
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+    margin: 30px 0px;
+}
+.thankyou-page ._body {
+    margin: -70px 0 30px;
+}
+.thankyou-page ._body ._box {
+    margin: auto;
+    max-width: 73%;
+    padding: 50px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0 0 25px rgba(10, 10, 10,0.12);
+    -moz-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+    -webkit-box-shadow: 0 0 25px rgba(10, 10, 10,0.12);
+    margin-left: 217px;
+    text-align: justify;
+}
+.thankyou-page ._body ._box h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #db941d;
+}
+.thankyou-page ._footer {
+    text-align: center;
+    padding: 50px 30px;
+    margin-left: 30px;
+}
+
+.thankyou-page ._footer .btn {
+    background: #db941d;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0;
+    letter-spacing: 0.8px;
+    padding: 20px 33px;
+    text-transform: uppercase;
+    border-radius: 12px;
+    margin-bottom: 150px;
+}
+
+.contact-btn{
+    color: #db941d !important;
+}

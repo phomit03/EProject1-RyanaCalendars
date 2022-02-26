@@ -1,0 +1,48 @@
+/*welcome*/
+#welcome {
+    font-family: "Muli", sans-serif;
+    text-align: center;
+    color: #333333;
+    margin: 40px auto 0 auto !important;
+    display: block;
+    /* background-color: red; */
+    max-width: 1200px;
+  }
+  .title-welcome {
+    font-size: 42px;
+    margin: 0px;
+    font-weight: 600;
+    color: #db941d;
+  }
+  .text-welcome {
+    margin: 10px auto 30px auto;
+    text-align: center;
+    display: block;
+    max-width: 72.55%;
+    color: #333333;
+    opacity: 0.95;
+  }
+  .fix-welcome{
+    /* background-color: #db941d; */
+    text-align: justify;
+    margin: 0;
+  }
+  .button-welcome button {
+    height: 30px;
+    background: white;
+    /* box-shadow: 2px 3px 1px 0px #868686; */
+    padding: 1px 16px;
+    border-radius: 12px;
+    border-color: #db941d;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+  .button-welcome a {
+    font-size: 13px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #333333;
+  }
+  .button-welcome a:hover{
+    color: #db941d;
+  }

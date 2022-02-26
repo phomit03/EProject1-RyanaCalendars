@@ -1,0 +1,129 @@
+/*header*/
+.navbar {
+  background-color: white !important;
+  margin-top: 0px;
+  /* margin-left: 15px; */
+  padding: 10px 15px !important;
+  font-family: "Muli", sans-serif;
+}
+.container-fluid{
+  margin: 0px auto 0px auto !important;
+  padding-right: 0px;
+}
+.navbar-branch {
+  width: 25%;
+}
+img.img-nav{
+  height: 70px;
+}
+
+.navbar-branch img{
+  padding-left: 27px !important;
+  margin-top: 14px;
+  float: left !important;
+}
+
+.nav-bar {
+  float: right;
+  display: -ms-inline-flexbox;
+  display: inline-flex; 
+  padding-top: -20px;
+  margin-top: 18px;
+}
+
+.nav-bar ul{
+  margin-top: 0px !important;
+  padding-left: 25px;
+  margin-right: 0.5px !important;
+}
+
+.nav-bar li {
+  list-style: none;
+  display: inline-block;
+  margin-left: -5px;
+  margin-right: 0;
+  position: relative;
+}
+
+.nav-bar li a {
+  font-size: 16px;
+  display: block;
+  color: #333333;
+  padding: 16px 20px 8px;
+  transition: all 0.3s;
+}
+
+.nav-bar>ul>li::after {
+  position: absolute;
+  content: "";
+  top: 95%;
+  left: 0%;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  background: #db941d;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.nav-bar>ul>li:hover::after, ul>li.active::after {
+  transform: scaleX(0.8);
+}
+
+.nav-bar>ul>li>a {
+  position: relative;
+  display: flex;
+  transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  text-decoration: none;
+  font-weight: 650;
+  color: #333333;
+}
+
+.nav-bar li .dropdown {
+  position: absolute;
+  top: 82px;
+  left: 15%;
+  max-width: 400px !important;
+  z-index: 99;
+  background: #ffffff;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  box-shadow: #cccccc 1px 1px 7px 1px;
+  padding: 0px 0px 0px 0px;
+}
+
+.nav-bar li .dropdown a {
+  width: 180px;
+  padding: 10px 0px 10px 20px;
+  text-align: left !important;
+  max-width: 200px;
+  font-size: 14px;
+}
+
+.dropdown-title a{
+  text-decoration: none;
+  padding: 20px 20px 10px 20px;
+  text-align: left !important;
+  font-size: 15px !important;
+  color: #db941d !important;
+}
+
+.nav-bar li:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+  top: 52px;
+}
+
+.nav-bar li .dropdown td:hover {
+  text-decoration: underline;
+}
+
+.nav-bar li .dropdown li:hover {
+  text-decoration: underline;
+}
+.
+/* .active>.dropdown{
+  top: 0px;
+} */
+
+
